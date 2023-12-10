@@ -2,7 +2,7 @@
 
 Discover & Share AI-Powered Prompts. Promptopia is an open-source AI prompting tool for modern world to discoverm create and share creative prompts
 
-### [Live Site](https://promptopia.pages.dev/)
+### [Live Site](https://promptopia-ten-sooty.vercel.app/)
 
 ![Promtopia](/public/images/promtopia.PNG)
 
