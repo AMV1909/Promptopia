@@ -12,13 +12,7 @@ interface Props {
 }
 
 const PromptCardList = ({ posts, handleTagClick }: Props) => (
-    <div
-        className={`grid xl:grid-cols-${
-            posts.length > 3 ? 3 : posts.length
-        } lg:grid-cols-${
-            posts.length > 3 ? 2 : posts.length - 1
-        } gap-4 mt-8 prompt-layout`}
-    >
+    <div className={`flex flex-wrap flex-grow gap-4 mt-8 prompt-layout`}>
         {posts.map((post, index) => (
             <PromptCard
                 key={index}
@@ -67,10 +61,7 @@ export function Feed() {
 
     return (
         <section className="feed mb-10">
-            <form
-                onSubmit={handleSubmit}
-                className="relative w-full max-w-xl flex-center"
-            >
+            <form onSubmit={handleSubmit} className="relative w-[36rem] flex-center">
                 <input
                     type="text"
                     placeholder="Search for a tag or a username"
