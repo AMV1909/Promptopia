@@ -32,6 +32,8 @@ export function PromptCard({
     };
 
     const goToProfile = () => {
+        if (pathName !== "/") return;
+
         router.push(`/other-profile/${post.creator._id}`);
     };
 
