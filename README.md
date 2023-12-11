@@ -2,7 +2,7 @@
 
 Discover & Share AI-Powered Prompts. Promptopia is an open-source AI prompting tool for modern world to discoverm create and share creative prompts
 
-### [Live Site](https://promptopia-ten-sooty.vercel.app/)
+### [Live Site](https://promptopia-omega-seven.vercel.app)
 
 ![Promtopia](/public/images/promtopia.PNG)
 
@@ -17,8 +17,8 @@ Discover & Share AI-Powered Prompts. Promptopia is an open-source AI prompting t
 
 ## Technoloiogies Used
 
--   Next.js
--   Tailwind CSS
--   MongoDB
--   Typescript
--   Google Login
+-   [Next.js](https://nextjs.org/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [MongoDB](https://www.mongodb.com/)
+-   [Typescript](https://www.typescriptlang.org/)
+-   [Google Login](https://developers.google.com/identity/sign-in/web/sign-in)
